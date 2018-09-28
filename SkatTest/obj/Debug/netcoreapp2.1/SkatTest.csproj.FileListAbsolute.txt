@@ -1,0 +1,17 @@
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/SkatTest/obj/Debug/netcoreapp2.1/SkatTest.csprojAssemblyReference.cache
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/SkatTest/obj/Debug/netcoreapp2.1/SkatTest.csproj.CoreCompileInputs.cache
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/SkatTest/obj/Debug/netcoreapp2.1/SkatTest.AssemblyInfoInputs.cache
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/SkatTest/obj/Debug/netcoreapp2.1/SkatTest.AssemblyInfo.cs
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/SkatTest/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/SkatTest/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/SkatTest/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/SkatTest/bin/Debug/netcoreapp2.1/SkatTest.deps.json
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/SkatTest/bin/Debug/netcoreapp2.1/SkatTest.runtimeconfig.json
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/SkatTest/bin/Debug/netcoreapp2.1/SkatTest.runtimeconfig.dev.json
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/SkatTest/bin/Debug/netcoreapp2.1/SkatTest.dll
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/SkatTest/bin/Debug/netcoreapp2.1/SkatTest.pdb
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/SkatTest/bin/Debug/netcoreapp2.1/Skat.dll
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/SkatTest/bin/Debug/netcoreapp2.1/Skat.xml
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/SkatTest/obj/Debug/netcoreapp2.1/SkatTest.csproj.CopyComplete
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/SkatTest/obj/Debug/netcoreapp2.1/SkatTest.dll
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/SkatTest/obj/Debug/netcoreapp2.1/SkatTest.pdb
