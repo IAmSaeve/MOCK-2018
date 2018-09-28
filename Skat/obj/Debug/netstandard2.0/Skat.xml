@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Skat</name>
+    </assembly>
+    <members>
+        <member name="T:Skat.Afgift">
+            <summary>
+            Library for calutating car tax for both electric and motorised
+            </summary>
+        </member>
+        <member name="M:Skat.Afgift.BilAfgift(System.Double)">
+            <summary>
+            Method for calculating the tax of an electric car.
+            If the price is below or equal 200000 then the equation is as follows:
+            Price of the car times 0.85.
+            If the price is over 200000 then the equation is as following:
+            Price of the car times 1.50 minus 130000.
+            </summary>
+            <param name="pris"></param>
+            <returns>Returns the total tax as type double.</returns>
+        </member>
+        <member name="M:Skat.Afgift.ElBilAfgift(System.Double)">
+            <summary>
+            Method for calculating the tax of an electric car.
+            If the price is below or equal 200000 then the equation is as follows:
+            Price of the car times 0.85 times 0.20.
+            If the price is over 200000 then the equation is as following:
+            Price of the car times 1.50 minus 130000 times 0.20
+            </summary>
+            <param name="pris"></param>
+            <returns>Returns the total tax as type double.</returns>
+        </member>
+    </members>
+</doc>

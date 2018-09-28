@@ -2,7 +2,10 @@
 
 namespace Skat
 {
-    public class Class1
+    /// <summary>
+    /// Library for calutating car tax for both electric and motorised
+    /// </summary>
+    public class Afgift
     {
         /// <summary>
         /// Method for calculating the tax of an electric car.

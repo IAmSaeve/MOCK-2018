@@ -1,0 +1,11 @@
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/Skat/bin/Debug/netstandard2.0/Skat.deps.json
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/Skat/bin/Debug/netstandard2.0/Skat.dll
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/Skat/bin/Debug/netstandard2.0/Skat.pdb
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/Skat/bin/Debug/netstandard2.0/Skat.xml
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/Skat/obj/Debug/netstandard2.0/Skat.csprojAssemblyReference.cache
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/Skat/obj/Debug/netstandard2.0/Skat.csproj.CoreCompileInputs.cache
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/Skat/obj/Debug/netstandard2.0/Skat.AssemblyInfoInputs.cache
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/Skat/obj/Debug/netstandard2.0/Skat.AssemblyInfo.cs
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/Skat/obj/Debug/netstandard2.0/Skat.dll
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/Skat/obj/Debug/netstandard2.0/Skat.xml
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/Skat/obj/Debug/netstandard2.0/Skat.pdb
