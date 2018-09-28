@@ -1,0 +1,11 @@
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/TCPServer/obj/Debug/netcoreapp2.1/TCPServer.csprojAssemblyReference.cache
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/TCPServer/obj/Debug/netcoreapp2.1/TCPServer.csproj.CoreCompileInputs.cache
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/TCPServer/obj/Debug/netcoreapp2.1/TCPServer.AssemblyInfoInputs.cache
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/TCPServer/obj/Debug/netcoreapp2.1/TCPServer.AssemblyInfo.cs
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/TCPServer/bin/Debug/netcoreapp2.1/TCPServer.deps.json
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/TCPServer/bin/Debug/netcoreapp2.1/TCPServer.runtimeconfig.json
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/TCPServer/bin/Debug/netcoreapp2.1/TCPServer.runtimeconfig.dev.json
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/TCPServer/bin/Debug/netcoreapp2.1/TCPServer.dll
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/TCPServer/bin/Debug/netcoreapp2.1/TCPServer.pdb
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/TCPServer/obj/Debug/netcoreapp2.1/TCPServer.dll
+/home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/TCPServer/obj/Debug/netcoreapp2.1/TCPServer.pdb
