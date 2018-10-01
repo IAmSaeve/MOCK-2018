@@ -9,3 +9,17 @@
 /home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/TCPServer/bin/Debug/netcoreapp2.1/TCPServer.pdb
 /home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/TCPServer/obj/Debug/netcoreapp2.1/TCPServer.dll
 /home/sebastan/Skrivebord/Skole/VS Projects/3. semester/MOCK/TCPServer/obj/Debug/netcoreapp2.1/TCPServer.pdb
+/home/sebastian/Desktop/Skole/VS Projects/3. semester/MOCK/TCPServer/bin/Debug/netcoreapp2.1/TCPServer.deps.json
+/home/sebastian/Desktop/Skole/VS Projects/3. semester/MOCK/TCPServer/bin/Debug/netcoreapp2.1/TCPServer.runtimeconfig.json
+/home/sebastian/Desktop/Skole/VS Projects/3. semester/MOCK/TCPServer/bin/Debug/netcoreapp2.1/TCPServer.runtimeconfig.dev.json
+/home/sebastian/Desktop/Skole/VS Projects/3. semester/MOCK/TCPServer/bin/Debug/netcoreapp2.1/TCPServer.dll
+/home/sebastian/Desktop/Skole/VS Projects/3. semester/MOCK/TCPServer/bin/Debug/netcoreapp2.1/TCPServer.pdb
+/home/sebastian/Desktop/Skole/VS Projects/3. semester/MOCK/TCPServer/bin/Debug/netcoreapp2.1/Skat.dll
+/home/sebastian/Desktop/Skole/VS Projects/3. semester/MOCK/TCPServer/bin/Debug/netcoreapp2.1/Skat.xml
+/home/sebastian/Desktop/Skole/VS Projects/3. semester/MOCK/TCPServer/obj/Debug/netcoreapp2.1/TCPServer.csprojAssemblyReference.cache
+/home/sebastian/Desktop/Skole/VS Projects/3. semester/MOCK/TCPServer/obj/Debug/netcoreapp2.1/TCPServer.csproj.CoreCompileInputs.cache
+/home/sebastian/Desktop/Skole/VS Projects/3. semester/MOCK/TCPServer/obj/Debug/netcoreapp2.1/TCPServer.AssemblyInfoInputs.cache
+/home/sebastian/Desktop/Skole/VS Projects/3. semester/MOCK/TCPServer/obj/Debug/netcoreapp2.1/TCPServer.AssemblyInfo.cs
+/home/sebastian/Desktop/Skole/VS Projects/3. semester/MOCK/TCPServer/obj/Debug/netcoreapp2.1/TCPServer.csproj.CopyComplete
+/home/sebastian/Desktop/Skole/VS Projects/3. semester/MOCK/TCPServer/obj/Debug/netcoreapp2.1/TCPServer.dll
+/home/sebastian/Desktop/Skole/VS Projects/3. semester/MOCK/TCPServer/obj/Debug/netcoreapp2.1/TCPServer.pdb

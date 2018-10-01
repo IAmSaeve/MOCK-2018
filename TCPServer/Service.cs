@@ -2,6 +2,7 @@ using System;
 using System.IO;
 using System.Net.Sockets;
 using System.Threading;
+using Skat;
 
 namespace ConcurrentServer
 {
@@ -20,24 +21,14 @@ namespace ConcurrentServer
             {
                 try
                 {
-                    /*
-                    * Sets variables for use later.
-                    * Enforces message flushing with, (AutoFlush = true), needed to push messages instantly.
-                    */
-                    // Stream ns = new NetworkStream(ConnectionSocket.Client);
                     Stream ns = ConnectionSocket.GetStream();
                     var sr = new StreamReader(ns);
                     var sw = new StreamWriter(ns) {AutoFlush = true};
-                    var message = sr.ReadLine();
+                    var message1 = sr.ReadLine();
+                    double message2 = double.Parse(sr.ReadLine());
                     var answer = "";
 
-                    /*
-                    * This method stops the server if an empty string is detected.
-                    * This is done because a lost connection to a client usually sends empty strings.
-                    * The second reason is prevent recourse waste since the server always expects a not null or empty
-                    * string object to read and answer.
-                    */
-                    if (message == string.Empty)
+                    if (message1 == string.Empty)
                     {
                         Console.WriteLine("Empty string detected!");
                         Console.WriteLine(
@@ -49,17 +40,12 @@ namespace ConcurrentServer
                         break;
                     }
 
-                    while (!string.IsNullOrEmpty(message))
+                    while (!string.IsNullOrEmpty(message1) && double.IsPositiveInfinity(message2))
                     {
-                        Console.WriteLine("Client: " + message);
+                        Console.WriteLine("Client: " + message1);
+                        Console.WriteLine("Client: " + message2);
 
-                        /*
-                        * This method handles interrupt messages sent by the client.
-                        * When the server receives "stop", it informs the client and the server that it will restart.
-                        * After the connection is closed the method break the while loop and waits for a new client to
-                        * connect.
-                        */
-                        if (message == "stop")
+                        if (message1 == "stop")
                         {
                             Console.WriteLine("Received interrupt signal!");
                             Console.WriteLine("The server will close the connection and wait for a new client.");
@@ -71,10 +57,20 @@ namespace ConcurrentServer
                             break;
                         }
 
+                        if (message1 == "Personbil")
+                        {
+                            Afgift a = new Afgift();
+                            answer = (a.BilAfgift(message2)).ToString();
+                        } else if (message1 == "Elbil")
+                        {
+                            Afgift a = new Afgift();
+                            answer = (a.ElBilAfgift(message2)).ToString();
+                        }
+
                         // Responds to client.
-                        answer = message.ToUpper();
+                        //answer = message1.ToUpper();
                         sw.WriteLine(answer);
-                        message = sr.ReadLine();
+                        message1 = sr.ReadLine();
                     }
 
                     // Closes connection after client disconnect.

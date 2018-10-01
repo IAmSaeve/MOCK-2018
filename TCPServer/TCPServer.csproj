@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Skat">
+      <HintPath>dll/Skat.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
