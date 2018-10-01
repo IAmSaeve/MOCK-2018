@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkatTest", "SkatTest\SkatTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPServer", "TCPServer\TCPServer.csproj", "{40B27FBD-D817-46F3-A3BD-7462E7D2CD86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{5F4728CB-4C7E-47A5-9632-370F54219F57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{40B27FBD-D817-46F3-A3BD-7462E7D2CD86}.Release|x64.Build.0 = Release|Any CPU
 		{40B27FBD-D817-46F3-A3BD-7462E7D2CD86}.Release|x86.ActiveCfg = Release|Any CPU
 		{40B27FBD-D817-46F3-A3BD-7462E7D2CD86}.Release|x86.Build.0 = Release|Any CPU
+		{5F4728CB-4C7E-47A5-9632-370F54219F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4728CB-4C7E-47A5-9632-370F54219F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4728CB-4C7E-47A5-9632-370F54219F57}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5F4728CB-4C7E-47A5-9632-370F54219F57}.Debug|x64.Build.0 = Debug|Any CPU
+		{5F4728CB-4C7E-47A5-9632-370F54219F57}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5F4728CB-4C7E-47A5-9632-370F54219F57}.Debug|x86.Build.0 = Debug|Any CPU
+		{5F4728CB-4C7E-47A5-9632-370F54219F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4728CB-4C7E-47A5-9632-370F54219F57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F4728CB-4C7E-47A5-9632-370F54219F57}.Release|x64.ActiveCfg = Release|Any CPU
+		{5F4728CB-4C7E-47A5-9632-370F54219F57}.Release|x64.Build.0 = Release|Any CPU
+		{5F4728CB-4C7E-47A5-9632-370F54219F57}.Release|x86.ActiveCfg = Release|Any CPU
+		{5F4728CB-4C7E-47A5-9632-370F54219F57}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
