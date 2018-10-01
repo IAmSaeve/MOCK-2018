@@ -1,14 +1,4 @@
-﻿/*
- * TCPEchoClient
- *
- * Author Michael Claudius, ZIBAT Computer Scienc
- * Version 1.0. 2014.02.10
- * Copyright 2014 by Michael Claudius
- * Revised 2014.09.01, 2016.09.14
- * All rights reserved
- */
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -50,14 +40,18 @@ namespace Client
             StreamWriter sw = new StreamWriter(ns);
             sw.AutoFlush = true; // enable automatic flushing
 
-            for (int i = 0; i < 5; i++)
-            {
                 try
                 {
-                    string message = Console.ReadLine();
-                    sw.WriteLine(message);
-                    string serverAnswer = sr.ReadLine();
+                    Console.WriteLine("\nIndtast venligst køretøjstype, Personbil eller Elbil:");
+                    string message1 = Console.ReadLine();
 
+                    System.Console.WriteLine("\nIndtast nu venligst køretøjets pris:");
+                    string message2 = Console.ReadLine();
+
+                    sw.WriteLine(message1);
+                    sw.WriteLine(message2);
+
+                    string serverAnswer = sr.ReadLine();
                     Console.WriteLine("Server: " + serverAnswer);
                 }
                 catch (IOException)
@@ -68,7 +62,6 @@ namespace Client
                     clientSocket.Close();
                     Environment.Exit(0);
                 }
-            }
 
             Console.WriteLine("No more from server. Press Enter");
             Console.ReadLine();

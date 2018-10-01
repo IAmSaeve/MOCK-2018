@@ -40,7 +40,7 @@ namespace ConcurrentServer
                         break;
                     }
 
-                    while (!string.IsNullOrEmpty(message1) && double.IsPositiveInfinity(message2))
+                    while (!string.IsNullOrEmpty(message1) && message2 != 0)
                     {
                         Console.WriteLine("Client: " + message1);
                         Console.WriteLine("Client: " + message2);
