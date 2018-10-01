@@ -1,12 +1,21 @@
-interface Person {
-    firstName: string;
-    lastName: string;
-}
+let buttonElement: HTMLButtonElement = document.getElementById("calc") as HTMLButtonElement;
+let carType: HTMLSelectElement = document.getElementById("Type") as HTMLSelectElement;
+let price: HTMLInputElement = document.getElementById("Price") as HTMLInputElement;
+let result: HTMLParagraphElement = document.getElementById("Result") as HTMLParagraphElement;
 
-function greeter(person: Person): string {
-    return "Hello, " + person.firstName + " " + person.lastName;
-}
-let user: Person = { firstName: "John", lastName: "Doe" };
-
-let element: HTMLDivElement = <HTMLDivElement> document.getElementById("content");
-element.innerHTML = greeter(user);
+buttonElement.addEventListener("click",
+    () => {
+        if (carType.value === "Bil") {
+            if (price.valueAsNumber <= 200000) {
+                result.innerText = "Bil afgift: " + (price.valueAsNumber * 0.85).toString();
+            } else {
+                result.innerText = "Bil afgift: " + ((price.valueAsNumber * 1.50) - 130000).toString();
+            }
+        } else {
+            if (price.valueAsNumber <= 200000) {
+                result.innerText = "Bil afgift: " + ((price.valueAsNumber * 0.85) * 0.20).toString();
+            } else {
+                result.innerText = "Bil afgift: " + (((price.valueAsNumber * 1.50) - 130000) * 0.20).toString();
+            }
+        }
+});

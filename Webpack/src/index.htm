@@ -1,16 +1,28 @@
 <!doctype html>
-<html lang="en-US">
+<html lang="da-DK">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Coding Template</title>
+  <title>Bil afgift beregner</title>
   <link rel="stylesheet" type="text/css" href="bundle.css">
 </head>
 
 <body>
-  <h1>Webpack - TypeScript - Scss</h1>
-  <h2>TypeScript Hello World</h2>  
-  <div id="content"></div>
+  <h1>Bil afgift udregner</h1>
+
+  <div>
+    Indtast bilens pris: <br>
+    <input type="number" id="Price" value="0"><br>
+
+    <select name="Bil type" id="Type" >
+      <option value="Bil">Bil</option>
+      <option value="Elbil">El-bil</option>
+    </select>
+
+    <button id="calc">Beregn afgift</button>
     
+    <p id="Result">Bil afgift: </p>
+  </div>
+
   <script src="bundle.js"></script>
 </body>
 </html>
